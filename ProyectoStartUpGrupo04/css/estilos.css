@@ -1,0 +1,13 @@
+ul {
+    display:block;
+    text-align: center;
+}
+
+li {
+    display:inline-block;
+    font-size: 25px;
+}
+
+.separar {
+    padding:7rem;
+}
