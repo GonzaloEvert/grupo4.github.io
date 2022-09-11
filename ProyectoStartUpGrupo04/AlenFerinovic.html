@@ -4,53 +4,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/estilos.css">
     <title>Document</title>
+    <style>
+        body {
+            background-color: #e2d6c3;
+        }
+        header {
+            text-align: center;
+            background-color: #9e9e9e;
+        }
+       
+        img {
+            display: block;
+            margin: auto;
+            margin-bottom: 35px;
+            width: 200px;
+            height: 200px;
+        }
 
-<style>
-    body {
-        background-color: black;
-
+        main {
+            background-color: black;
+        }
         
-    }
-
-    h1 {
-        color: white;
-        text-align: center;
-    }
-    
-    h2{
-        color: white;
-        text-align: center;
-    }
-
-    img{
-        display: block;
-        margin: auto;
-        margin-bottom: 25px;
-        margin-top: 25px;
-    }
-
-    h3{
-        color: white;
-    }
-
-    p{
-        color: white;
-    }
-
-</style>
+        footer a {
+            display: block;
+        }
+    </style>
 </head>
 <body>
-    <h1>Alen Ferinovic</h1>
-    <h2>Licenciatura en Gestion de Tecnología de la Información</h2>
-    <img src="img/alen-image.png" height="200px" width="200px" alt="">
-    <h3>Conocimiento de lenguajes:</h3>
-    <p>Python</p> 
-    <h3>Hobbies:</h3>
-    <p>Leer libros, ver series/películas, escribir</p>
+    <header>
+        <div>
+            <h1>Alen Ferinovic</h1>
+            <h2>Estudiante de Licenciatura en Sistemas</h2>
+    </header>
+    <main>
+            <img src="alen-image.png" alt="Alen Ferinovic">
+        </div>
+    </main>
     
-    <a href="index.html"><p>Volver al Home</p></a>
-    <a href="integrantes.html"><p>Volver a integrantes</p></a>
+
+    <nav>
+    <h3 style="display: inline;">Mail de contacto:</h3>
+    <p style="display: inline;">alenferi19@gmail.com</p>
+    <h3>Conocimientos</h3>
+        <ul>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+        </ul>
+        <h3>Intereses</h3>
+        <ul>
+            <li>Juegos de PC</li>
+            <li>Futbol</li>
+            <li>Series y peliculas</li>
+            <li>Series y peliculas</li>
+        </ul>  
+    </nav>
+    <footer>
+        <a href="index.html">Volver al home</a>
+        <a href="integrantes.html">Volver a integrantes</a>
+    </footer>
 </body>
 </html>
