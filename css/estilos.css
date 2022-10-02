@@ -1,0 +1,40 @@
+body {
+    background-color: #e2d6c3;
+}
+
+.centrarListaInterna {
+    display:inline-block;
+    font-size: 25px;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+footer p {
+    background-color: rgb(177, 170, 170);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+header {
+    text-align: center;
+}
+
+.fondoNegro{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.foto {
+    width: 200px;
+    height: 200px;
+}
+
+.colorNavs {
+    background-color: darksalmon;
+}
+
+.colorHeader {
+    background-color: darkgoldenrod;
+}
